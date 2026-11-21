@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const PORT = process.env.ESSL_PORT || process.env.PORT || 5009;
+const PORT = process.env.ESSL_PORT || process.env.PORT || 5002;
 
 // Database connection (commented out / bypassed)
 // require("./conn/conn");
